@@ -1,10 +1,10 @@
-name: SFN Member Bot
+name: SFN Auto Bot
 
 on:
   schedule:
-    # প্রতি ৬ ঘণ্টায় অটোমেটিক রান হবে
+    # প্রতি ৬ ঘণ্টায় রান হবে
     - cron: '0 */6 * * *'
-  workflow_dispatch: # ম্যানুয়ালি রান করার অপশন
+  workflow_dispatch:
 
 jobs:
   run-bot:
